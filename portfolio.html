@@ -3,80 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/portfolio.css">
-        <link href="https://fonts.googleapis.com/css?family=Sriracha&display=swap" rel="stylesheet">
-        
-
-    <title>Document</title>
+    <link rel="stylesheet" href="css/portfolio.css">
+   
+       
 </head>
 <body>
-    <nav class="navbar navbar-expand-sm">        
+    <nav class="navbar navbar-expand-lg navbar-light ">
         <img class="logo" src="images/cover.png" alt="Logo" width="200px" height="70px">
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link" href="index.html">About</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">Portfolio</a>
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                    <strong>Connect With Me</strong>
-                </a>
-                <div class="dropdown-menu">
-                    <a class="dropdown-item" href="https://github.com/gohucosta23" target="blank"><strong>Github</strong> <img
-                        src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
-                        alt="github logo" width="50px" height="50px"></a>
-                    <a class="dropdown-item" href="www.linkedin.com/in/hugo-costa" target="blank"><strong>Linkedin</strong> <img
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Linkedin_icon.svg/1024px-Linkedin_icon.svg.png"
-                        alt="Linkedin logo" width="50px" height="50px"></a>
-
-
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>            
+          </ul>
+        </div>
+      </nav>
+   
+            <div class="container">
+                <div class="row">
+                    <div class="col-12  border-bottom my-3">
+                        <h2>Portfolio</h2>
+                    </div>
                 </div>
-            </li>
-        </ul>    
-    </nav>
-    <div class="container">
-        <div id="demo" class="carousel slide text-center" data-ride="carousel">
-
-              <ul class="carousel-indicators">
-              <li data-target="#demo" data-slide-to="0" class="active"></li>
-              <li data-target="#demo" data-slide-to="1"></li>
-              <li data-target="#demo" data-slide-to="2"></li>
-            </ul>          
-            
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img class="pics" src="../Basic-Portfolio/assets/images/IMG4.jpg" alt="Los Angeles">
-              </div>
-              <div class="carousel-item">
-                <img class="pics" src="../Basic-Portfolio/assets/images/IMG4.jpg" alt="Chicago">
-              </div>
-              <div class="carousel-item">
-                <img class="pics" src="../Basic-Portfolio/assets/images/IMG4.jpg" alt="New York">
-              </div>
-            </div>          
-            
-            <a class="carousel-control-prev" href="#demo" data-slide="prev">
-              <span class="carousel-control-prev-icon"></span>
-            </a>
-            <a class="carousel-control-next" href="#demo" data-slide="next">
-              <span class="carousel-control-next-icon"></span>
-            </a>
-          
-          </div>
-    </div>
+                <div class="row ">
+                    <div class="col-sm-5 mx-auto border">
+                        <div class="row my-3  ">
+                            <img class="rounded mx-auto" src="https://place-hold.it/400x300/grey" alt="Placeholder">                                                       
+                        </div>
+                        <div class="row my-3">
+                            <button type="button" class="btn btn-success mx-auto">Submit</button>
+                        </div>
+                    </div>
+                    <div class="col-sm-5 mx-auto border">
+                        <div class="row my-3">
+                            <img class="rounded mx-auto" src="https://place-hold.it/400x300/grey" alt="Placeholder">                            
+                        </div>
+                        <div class="row my-3">
+                            <button type="button" class="btn btn-success mx-auto">Submit</button>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="row my-3">
+                    <div class="col-sm-5 mx-auto border">
+                        <div class="row my-3">
+                            <img class="rounded mx-auto" src="https://place-hold.it/400x300/grey" alt="Placeholder">                                                      
+                        </div>
+                        <div class="row my-3">
+                            <button type="button" class="btn btn-success mx-auto">Submit</button>
+                        </div>
+                    </div>
+                    <div class="col-sm-5 mx-auto border">
+                        <div class="row my-3">
+                            <img class="rounded mx-auto" src="https://place-hold.it/400x300/grey" alt="Placeholder">                            
+                        </div>
+                        <div class="row my-3">
+                            <button type="button" class="btn btn-success mx-auto">Submit</button>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>        
+    <div class="container-fluid">
     <div class="row">
         <footer >
             <p><strong>Copyright&#169</strong></p>
         </footer>
         </div>
+    </div>
 </body>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
