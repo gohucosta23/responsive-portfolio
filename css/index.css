@@ -57,16 +57,16 @@ footer {
 @media screen and (min-width: 500px) and (max-width: 768px) {
     
     .container {
-        width: 700px;
         height: auto;        
-        margin: 0 auto 100px;
+        margin: 20px auto;
     }
     .logo {
-        margin: 0 auto;
+        margin: 0px 0px 0px 10px;
+        margin
     }
     
 }
-@media screen and (max-width: 500px) {
+@media screen and (min-width: 300px) and (max-width: 499px) {
     .logo {
         margin: 0 auto;
     }
@@ -82,7 +82,7 @@ footer {
    }
     .container {
         margin: 0 auto 100px;
-        width: 300px;
+        width: 90%;
         height: auto;
     }
     .navbar-toggler {

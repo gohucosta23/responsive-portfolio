@@ -42,7 +42,7 @@ h2 {
 }
 p {
     font-family: 'Saira Semi Condensed', sans-serif;
-    font-weight: bold;
+    font-weight: bold;    
 }
 
 input {
@@ -52,6 +52,7 @@ input {
 
 textarea {
     width: 95%;
+    
 }
 
 footer {
@@ -72,13 +73,14 @@ footer {
         top: 0;
         z-index: 1;
     }
-    .container {
+    .container {        
         margin: 0 auto ;
-        width: 700px;
+       
 
     }
     .logo {
-        margin: 0 auto;
+        margin: 0px 0px 0px 10px;
+        
     }
     
    

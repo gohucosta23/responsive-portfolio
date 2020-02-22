@@ -10,7 +10,7 @@ nav {
     margin-bottom: 30px;
 
 }
-
+/* I used margin left and right to position the logo where I wanted. */
 .logo {
     margin-right: 350px;
     margin-left: 195px;
@@ -43,13 +43,12 @@ a:hover {
 footer {
     position: fixed;
     background-color: #666666;
-    padding: 20px;
+    padding: 20px 20px 0px;
     bottom: 0; 
     left: 0; 
     width: 100%;
     border-top: solid #4aaaa5 5px;
     text-align: center;
-    padding-bottom: 0;
 }
 .btn {
     padding: 5px 30px 5px;
@@ -60,10 +59,11 @@ footer {
         position: sticky;
         top: 0;
         z-index: 1;
-    }
-    img {
         
-        width: 100%;
+    }
+    img { 
+        
+     width: 90%; 
     }
     .container {
         margin: 0 auto ;
@@ -71,7 +71,8 @@ footer {
 
     }
     .logo {
-        margin: 0 auto;
+        width: 20%;
+        margin: 0px 0px 0px 20px;
     }
     
    
@@ -79,11 +80,12 @@ footer {
 @media screen and (max-width: 500px) {
     .logo {
       
-        margin: 0 auto;
+        width: 65%;
+        margin: 0px 0px 0px 10px;
     }
     img {
         
-        width: 100%;
+        width: 90%;
     }
     .navbar {
         position: sticky;
@@ -92,7 +94,7 @@ footer {
     }
     .container {
         margin: 0 auto 100px;
-        width: 300px;
+        width: 90%;
                 
     }
     .navbar-toggler {
