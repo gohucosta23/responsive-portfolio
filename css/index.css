@@ -1,5 +1,6 @@
 body {
-    background: url(../images/background.png);
+    background-image: url("https://cdn.stocksnap.io/img-thumbs/280h/FSVA6VJ2XI.jpg");
+        
 }
 
 
@@ -17,23 +18,32 @@ nav {
     background-color: #fff;
 }
 
-a {
-    color: white;
+.navBarLinks {
     font-size: 16px;
     margin-right: 60px;
+    font-weight: bolder;
 }
 
-a:hover {
-    color:black;
-    font-size: 25px;
+
+.contactMeCard{
+    font-size: 14px; 
+    line-height: 3px;
+    font-weight: bolder;
+    font-family: 'Oswald', sans-serif;
+}
+.contactMeCardName {
+    font-weight: bolder; 
+    color: #4aaaa5; 
+    font-size: 24px;
 }
 h2 {
     color: #4aaaa5;
 }
 
 .container {
+
     padding: 50px;   
-    background-color: #fff;
+    background-image: url(../images/background.png);
     border: solid 5px#b3b0b0;
     margin: 20px auto 100px;
 }

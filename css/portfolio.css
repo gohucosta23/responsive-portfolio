@@ -1,6 +1,6 @@
 body {
-    background-image: url(../images/background.png);
-    
+    background-image: url("https://cdn.stocksnap.io/img-thumbs/280h/FSVA6VJ2XI.jpg");
+        
     }
 nav {
     background-color: #4aaaa5;
@@ -18,26 +18,41 @@ nav {
     background-color: #fff;  
    
 }
+
 h2 {
     color: #4aaaa5;
 }
 
-a {
-    color: white;
+a {    
     font-size: 16px;
     margin-right: 60px;
+    font-weight: bolder;
 }
 
-a:hover {
-    color:black;
-    font-size: 25px;
+
+.githubLinks{
+    margin-right: 0px;
+    
+}
+.projectLink{
+    padding-top: 10px;
+    background-color: #4aaaa5;
+    color: white;
+}
+.projectTitle {
+    background-color: #4aaaa5;
+    height: 50px;
+    margin: auto;
+    padding-top: 10px;
+    
+    color: white;
 }
 
 .container {
    
     border: solid 5px#b3b0b0;
     padding: 50px;
-    background-color: #fff;
+    background-image: url(../images/background.png);
     margin: 0 auto 100px;
 }   
 footer {

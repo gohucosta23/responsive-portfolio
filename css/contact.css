@@ -1,5 +1,6 @@
 body {
-    background-image: url(../images/background.png);
+    background-image: url("https://cdn.stocksnap.io/img-thumbs/280h/FSVA6VJ2XI.jpg");
+        
 }
 
 
@@ -21,22 +22,19 @@ nav {
 }
 
 a {
-    color: white;
     font-size: 16px;
     margin-right: 60px;
+    font-weight: bolder;
 }
 
-a:hover {
-    color:black;
-    font-size: 25px;
-}
 h2 {
     color: #4aaaa5;
 }
 .container {
+
     border: solid 2px#dddddd;
     padding: 50px;    
-    background-color: #fff;
+    background-image: url(../images/background.png);
     border: solid 5px#b3b0b0;
     margin-bottom: 100px;
 }
